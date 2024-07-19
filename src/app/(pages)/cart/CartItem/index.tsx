@@ -50,7 +50,7 @@ const CartItem = ({ product, title, metaImage, qty, addItemToCart }) => {
         </div>
 
         <div className={classes.quantity}>
-            {/* decrement Button */}
+          {/* decrement Button */}
           <div className={classes.quantityBtn} onClick={decrementQty}>
             <Image
               src="/assets/icons/minus.svg"
@@ -60,14 +60,14 @@ const CartItem = ({ product, title, metaImage, qty, addItemToCart }) => {
               className={classes.qtnBt}
             />
           </div>
-{/* manual input */}
+          {/* manual input */}
           <input
             type="text"
             className={classes.quantityInput}
             value={quantity}
             onChange={enterQty}
           />
-{/* Decrement Button */}
+          {/* Decrement Button */}
           <div className={classes.quantityBtn} onClick={incrementQty}>
             <Image
               src="/assets/icons/plus.svg"
@@ -79,7 +79,7 @@ const CartItem = ({ product, title, metaImage, qty, addItemToCart }) => {
           </div>
         </div>
       </div>
-{/* total */}
+      {/* total */}
       <div className={classes.subtotalWrapper}>
         <Price product={product} button={false} quantity={quantity} />
         <RemoveFromCartButton product={product} />

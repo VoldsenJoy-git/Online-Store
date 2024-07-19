@@ -121,7 +121,6 @@ const link: LinkType = ({ appearances, disableLabel = false, overrides = {} } = 
           label: 'Icon',
           type: 'upload',
           relationTo: 'media',
-
         },
       ],
     })

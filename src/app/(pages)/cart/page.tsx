@@ -58,7 +58,6 @@ export default async function Cart() {
 
   return (
     <Fragment>
-      
       <Gutter>
         <CartPage settings={settings} page={page} />
       </Gutter>

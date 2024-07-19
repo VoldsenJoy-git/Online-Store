@@ -45,11 +45,7 @@ export const OrderConfirmationPage: React.FC<{}> = () => {
           </p>
           <div className={classes.actions}>
             <Button href={`account/orders/${orderID}`} label="View order" appearance="primary" />
-            <Button
-              href={`account/orders`}
-              label="View all orders"
-              appearance="secondary"
-            />
+            <Button href={`account/orders`} label="View all orders" appearance="secondary" />
           </div>
         </Fragment>
       )}

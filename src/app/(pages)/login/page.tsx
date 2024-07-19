@@ -18,7 +18,7 @@ export default async function Login() {
 
   return (
     <section className={classes.login}>
-{/* logo */}
+      {/* logo */}
       <div className={classes.heroImg}>
         <Link href="/">
           <Image
@@ -40,12 +40,12 @@ export default async function Login() {
             <Image src="/assets/icons/hand.png" alt="hand" width={30} height={30} />
           </div>
 
-        <p>Please login here</p>
+          <p>Please login here</p>
 
-        <LoginForm />
+          <LoginForm />
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
   )
 }
 

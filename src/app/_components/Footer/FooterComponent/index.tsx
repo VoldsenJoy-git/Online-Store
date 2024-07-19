@@ -36,7 +36,7 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
           ))}
         </ul>
       </Gutter>
-{/* logo , copyright and social links */}
+      {/* logo , copyright and social links */}
       <div className={classes.footer}>
         <Gutter>
           <div className={classes.wrap}>

@@ -24,7 +24,7 @@ export const ProductHero: React.FC<{
 
   return (
     <Gutter className={classes.productHero}>
-{/* product image */}
+      {/* product image */}
       <div className={classes.mediaWrapper}>
         {!metaImage && <div className={classes.placeholder}>No image</div>}
         {metaImage && typeof metaImage !== 'string' && (
@@ -33,8 +33,8 @@ export const ProductHero: React.FC<{
       </div>
 
       <div className={classes.details}>
-{/* Title */}
-        <h3 className={classes.title}>{title}</h3>  
+        {/* Title */}
+        <h3 className={classes.title}>{title}</h3>
 
         <div className={classes.categoryWrapper}>
           <div className={classes.categories}>
@@ -54,14 +54,14 @@ export const ProductHero: React.FC<{
           </div>
           <p className={classes.stock}> In stock</p>
         </div>
-{/* price tag */}
+        {/* price tag */}
         <Price product={product} button={false} />
-{/* Description */}
+        {/* Description */}
         <div className={classes.description}>
           <h6>Description</h6>
           <p>{description}</p>
         </div>
-{/* add to cart button */}
+        {/* add to cart button */}
         <AddToCartButton product={product} className={classes.addToCartButton} />
       </div>
     </Gutter>

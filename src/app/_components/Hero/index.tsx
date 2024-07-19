@@ -4,7 +4,7 @@ import { Page } from '../../../payload/payload-types'
 import { HighImpactHero } from '../../_heros/HighImpact'
 import { LowImpactHero } from '../../_heros/LowImpact'
 import { MediumImpactHero } from '../../_heros/MediumImpact'
-import {CustomHero} from '../../_heros/CustomHero'
+import { CustomHero } from '../../_heros/CustomHero'
 const heroes = {
   highImpact: HighImpactHero,
   mediumImpact: MediumImpactHero,
